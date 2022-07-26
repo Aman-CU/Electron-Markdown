@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #picker {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 1;
+
+        }
+
+        canvas {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+
+        }
+
+        #test5 {
+            z-index: 1;
+
+        }
+
+        .rangePos{
+            position:absolute;
+            width: 200px;
+            height: 20px;
+            top: 1%;
+            left: 85%;
+
+            
+        }
+
+        html{
+            cursor: url("image.png") 2 30,auto;
+=
+        }
+    </style>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"
+        integrity="sha512-b/htz6gIyFi3dwSoZ0Uv3cuv3Ony7EeKkacgrcVg8CMzu90n777qveu0PBcbZUA7TzyENGtU+qZRuFAkfqgyoQ=="
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body id="body">
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+
+    <div id="picker" class="picker"></div>
+
+
+    <div class="rangePos">
+        <input type="range" id="test5" min="1" max="30" />
+    </div>
+
+    <script src="./amination.js"></script>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

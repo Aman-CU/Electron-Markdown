@@ -1,0 +1,21 @@
+{
+  "name": "ElectronMarkdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron --enable-transparent-visuals --disable-gpu ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mousetrap": "^1.6.5",
+    "nouislider": "^14.6.3",
+    "wnumb": "^1.2.0"
+  },
+  "devDependencies": {
+    "electron": "^11.2.3"
+  }
+}
